@@ -1,0 +1,18 @@
+name = "lustre_json_tree_view"
+version = "0.1.0"
+
+description = "Interactive expandable JSON tree view for Lustre. A Gleam port of klazuka/elm-json-tree-view."
+licences = ["MIT"]
+repository = { type = "github", user = "janwirth", repo = "lustre_json_tree_view" }
+links = [
+  { title = "elm-json-tree-view (original)", href = "https://github.com/klazuka/elm-json-tree-view" },
+]
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+gleam_json = ">= 3.0.0 and < 4.0.0"
+lustre = ">= 5.5.0 and < 6.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
+lustre_dev_tools = ">= 2.3.0 and < 3.0.0"
