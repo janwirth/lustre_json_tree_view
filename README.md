@@ -26,9 +26,14 @@ demo (textarea + live tree).
 
 ## Install
 
-```sh
-gleam add lustre_json_tree_view
+Not yet published to Hex — install from the GitHub repo. Add to your `gleam.toml`:
+
+```toml
+[dependencies]
+lustre_json_tree_view = { git = "https://github.com/janwirth/lustre_json_tree_view", ref = "784005c3875768353893cd660688e54f5c675948" }
 ```
+
+Then run `gleam deps download`. Bump the `ref` to pin to a newer commit when one ships.
 
 ## Quick start (stateless)
 
