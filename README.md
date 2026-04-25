@@ -30,7 +30,7 @@ Not yet published to Hex — install from the GitHub repo. Add to your `gleam.to
 
 ```toml
 [dependencies]
-lustre_json_tree_view = { git = "https://github.com/janwirth/lustre_json_tree_view", ref = "784005c3875768353893cd660688e54f5c675948" }
+lustre_json_tree_view = { git = "https://github.com/janwirth/lustre_json_tree_view", ref = "main" }
 ```
 
 Then run `gleam deps download`. Bump the `ref` to pin to a newer commit when one ships.
